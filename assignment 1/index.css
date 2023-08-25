@@ -1,0 +1,59 @@
+h1{
+    border: 20px solid rgb(203, 172, 231);
+    border-radius: 50px 20px;
+    text-align: center;
+    background-color: rgb(203, 172, 231);
+    margin-top: 20px;
+}
+.bb{
+    border-top: 2px solid rgb(121, 75, 121);
+    border-bottom: 2px solid rgb(121, 75, 121);
+    text-align: center;
+    margin: 10px;
+}
+.about{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+}
+.about-image{
+    flex: 1;
+    margin-right: 40px;
+    overflow: hidden;
+}
+.about-image img{
+    max-width: 1000px;
+    height: auto;
+    display: block;
+    transition: 0.5s ease;
+}
+.about-image hover img{
+    transform: scale(1.2);
+}
+.about-content{
+    flex: 1;
+}
+.about-content h2{
+    font-size: 23px;
+margin-bottom: 15px;
+color: black;
+}
+.about-content p{
+    font-size: 18px;
+    line-height: 1.5;
+    color: black;
+}
+.about-content .read-more{
+  display: inline-block; 
+  padding: 10px 20px;
+  color: rgb(46, 40, 104);
+  font-size: 19px;
+  text-decoration: none;
+  border-radius: 25px;
+  margin-top: 15px;
+  transition: 0.3s ease;
+}
+.about-content .read-more:hover{
+    background-color: aliceblue;
+}
